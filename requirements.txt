@@ -1,0 +1,64 @@
+# MouthLocNet Requirements
+# الإصدار 2.0
+
+# أساسيات
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# معالجة الصوت
+sounddevice>=0.4.6
+librosa>=0.10.0
+soundfile>=0.12.0
+resampy>=0.4.0
+
+# تعلم عميق
+torch>=2.0.0
+torchaudio>=2.0.0
+torchvision>=0.15.0
+pytorch-lightning>=2.0.0
+
+# معالجة إشارة
+scikit-learn>=1.2.0
+scikit-signal>=0.3.0
+
+# توثيق
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0
+myst-parser>=1.0.0
+
+# اختبار
+pytest>=7.3.0
+pytest-cov>=4.0.0
+pytest-asyncio>=0.21.0
+
+# جودة كود
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+pylint>=2.17.0
+isort>=5.12.0
+
+# أدوات مساعدة
+tqdm>=4.65.0
+click>=8.1.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# هاردوير
+pyserial>=3.5
+spidev>=3.5
+rpi-gpio>=0.7
+
+# FPGA (اختياري)
+pyfpga>=0.1.0
+
+#Visualization
+plotly>=5.14.0
+bokeh>=3.1.0
+
+#تصدير
+onnx>=1.13.0
+onnxruntime>=1.14.0

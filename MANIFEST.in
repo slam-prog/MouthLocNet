@@ -1,0 +1,26 @@
+include README.md
+include LICENSE
+include requirements.txt
+include setup.py
+include pyproject.toml
+include CITATION.cff
+include .env.example
+include MANIFEST.in
+
+recursive-include src *.py
+recursive-include models *.py *.pt
+recursive-include notebooks *.ipynb
+recursive-include data *.json *.gitkeep
+recursive-include docs *.md
+recursive-include tests *.py
+recursive-include examples *.py
+recursive-include hardware *.md
+recursive-include .github *.md *.yml
+exclude *.pyc
+exclude __pycache__
+exclude *.pyo
+exclude .git
+exclude .gitignore
+exclude *.log
+exclude .DS_Store
+exclude Thumbs.db

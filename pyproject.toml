@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mouthlocnet"
+version = "2.0.0"
+description = "Mouth Sound Localization using Deep Learning"
+readme = "README.md"
+license = {text = "HEUL-2.0"}
+authors = [
+    {name = "NAJIB MOHAMMED AL-AMIR", email = "najib@example.com"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = [
+    "mouth localization",
+    "sound source localization",
+    "deep learning",
+    "speech processing",
+    "audio analysis",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "torch>=2.0.0",
+    "soundfile>=0.12.0",
+    "sounddevice>=0.4.6",
+    "librosa>=0.10.0",
+    "matplotlib>=3.7.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+    "pytest>=7.3.0",
+    "pytest-cov>=4.0.0",
+    "sphinx>=6.0.0",
+]
+gpu = [
+    "torch>=2.0.0+cu117",
+    "torchaudio>=2.0.0+cu117",
+]
+
+[project.urls]
+Homepage = "https://github.com/slam-prog/MouthLocNet"
+Repository = "https://github.com/slam-prog/MouthLocNet.git"
+Issues = "https://github.com/slam-prog/MouthLocNet/issues"
+
+[project.scripts]
+mouthlocnet = "mouthlocnet.cli:main"
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --cov=mouthlocnet"

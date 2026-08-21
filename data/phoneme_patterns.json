@@ -1,0 +1,123 @@
+{
+  "version": "2.0.0",
+  "description": "أنماط الأحرف الصوتية العربية",
+  "phonemes": {
+    "ب": {
+      "name": "باء",
+      "type": "شفوي",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.050
+      },
+      "tolerance_mm": 0.005,
+      "description": "الشفتان مغلقتان ثم تفتحان"
+    },
+    "م": {
+      "name": "ميم",
+      "type": "شفوي",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.048
+      },
+      "tolerance_mm": 0.005,
+      "description": "الشفتان مغلقتان مع خروج صوت من الأنف"
+    },
+    "س": {
+      "name": "سين",
+      "type": "أسناني",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.040
+      },
+      "tolerance_mm": 0.005,
+      "description": "اللسان قريب من الأسنان العليا"
+    },
+    "ش": {
+      "name": "شين",
+      "type": "أسناني",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.038
+      },
+      "tolerance_mm": 0.005,
+      "description": "اللسان مقوس مع خروج هواء"
+    },
+    "ت": {
+      "name": "تاء",
+      "type": "لثوي",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.035
+      },
+      "tolerance_mm": 0.005,
+      "description": "طرف اللسان يلمس اللثة"
+    },
+    "د": {
+      "name": "دال",
+      "type": "لثوي",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.035
+      },
+      "tolerance_mm": 0.005,
+      "description": "طرف اللسان يلمس اللثة مع صوت"
+    },
+    "ك": {
+      "name": "كاف",
+      "type": "لهوي",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.030
+      },
+      "tolerance_mm": 0.005,
+      "description": "أصل اللسان يلمس الحنك"
+    },
+    "ج": {
+      "name": "جيم",
+      "type": "لهوي",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.030
+      },
+      "tolerance_mm": 0.005,
+      "description": "أصل اللسان يلمس الحنك مع صوت"
+    },
+    "ع": {
+      "name": "عين",
+      "type": "حلقي",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.025
+      },
+      "tolerance_mm": 0.005,
+      "description": "تضييق في الحلق"
+    },
+    "ح": {
+      "name": "حاء",
+      "type": "حلقي",
+      "expected_position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.025
+      },
+      "tolerance_mm": 0.005,
+      "description": "تضييق في الحلق مع هواء"
+    }
+  },
+  "metadata": {
+    "created_by": "NAJIB MOHAMMED AL-AMIR",
+    "ai_contributors": ["DeepSeek AI", "Perplexity AI"],
+    "license": "HEUL-2.0",
+    "sample_rate": 768000,
+    "accuracy_mm": 0.70
+  }
+}

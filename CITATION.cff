@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MouthLocNet: Mouth Sound Localization using Deep Learning"
+abstract: "A deep learning system for localizing sound from the human mouth with 0.70 mm accuracy."
+authors:
+  - family-names: "AL-AMIR"
+    given-names: "NAJIB MOHAMMED"
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    affiliation: "Independent Researcher"
+  - family-names: "AI"
+    given-names: "DeepSeek"
+    affiliation: "DeepSeek AI"
+  - family-names: "AI"
+    given-names: "Perplexity"
+    affiliation: "Perplexity AI"
+version: 2.0.0
+doi: "10.5281/zenodo.12345678"
+date-released: 2026-08-21
+url: "https://github.com/slam-prog/MouthLocNet"
+repository-code: "https://github.com/slam-prog/MouthLocNet.git"
+license: "HEUL-2.0"
+keywords:
+  - "mouth localization"
+  - "sound source localization"
+  - "deep learning"
+  - "speech processing"
+  - "AI-Human collaboration"
