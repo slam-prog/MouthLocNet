@@ -5,7 +5,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: HEUL v2.0](https://img.shields.io/badge/License-HEUL_v2.0-green.svg)](LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Tests](https://github.com/slam-prog/MouthLocNet/workflows/Tests/badge.svg)](https://github.com/slam-prog/MouthLocNet/tests)
+[![Tests](https://github.com/slam-prog/MouthLocNet/workflows/Tests/badge.svg)](https://github.com/slam-prog/MouthLocNet/Action)
 
 
 ---
